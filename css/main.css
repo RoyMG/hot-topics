@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Kreon|Open+Sans");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6rem;
+  color: #2c2c2c;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kreon', serif;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+nav li {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  padding: 5px 0;
+  background-color: #d5f7d4;
+  font-weight: 600;
+}
+
+nav li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.slider {
+  background-image: url(../img/green-background-2109478_1920.jpg);
+  margin-top: 20px;
+}
+
+.slider .masthead {
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.main-content .container .article {
+  margin-top: 25px;
+}
+
+.main-content .container .article h2 {
+  text-align: center;
+}
+
+.main-content .container .article img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content .container .article p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.main-content .container .form input[type=text] {
+  width: 100%;
+}
+
+.main-content .container .form input[type=email] {
+  width: 100%;
+}
+
+.main-content .container .form textarea {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.main-content .container .form input[type=submit] {
+  margin-bottom: 10px;
+}
+
+/*Footer Fix*/
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-fix {
+  flex: 1;
+}
+
+/*End of Footer Fix*/
+footer {
+  padding: 35px 0;
+  background-color: #81e77e;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+footer p a img {
+  max-width: 40px;
+  height: auto;
+}
+
+@media all and (min-width: 35rem) {
+  body {
+    font-size: 1rem;
+  }
+  header {
+    text-align: center;
+  }
+  header img {
+    width: 50%;
+    height: auto;
+  }
+  nav li {
+    display: inline-block;
+    width: calc(33.33% - 7px);
+    margin: 5px 5px 5px 0;
+    padding: 5px 0;
+  }
+  nav li:last-child {
+    margin: 5px 0;
+  }
+  .main-content .container .article img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+  }
+  .main-content .container .article p {
+    text-align: left;
+    margin: 10px 0;
+  }
+  .main-content .container .form h1 {
+    text-align: center;
+  }
+  .main-content .container .form input[type=text] {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+  }
+  .main-content .container .form input[type=email] {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+  }
+  .main-content .container .form .textforms {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+  }
+  .main-content .container .form textarea {
+    margin-top: 5px;
+    width: 65%;
+  }
+  .main-content .container .form input[type=submit] {
+    margin-bottom: 10px;
+    width: 30%;
+  }
+}
+
+@media all and (min-width: 60rem) {
+  .main-content .container .article img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+  }
+  .main-content .container .article p {
+    text-align: left;
+    margin: 10px 0;
+  }
+  .main-content .container .lg-two-col {
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+  }
+  .main-content .container .lg-two-col:last-child {
+    margin-right: 0%;
+  }
+  .main-content .container .form h1 {
+    text-align: left;
+  }
+}

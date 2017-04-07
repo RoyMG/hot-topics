@@ -1,0 +1,110 @@
+@import "variables";
+@include medium {
+    body {
+        font-size: 1rem;
+    }
+    header {
+        text-align: center;
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+    nav {
+        li {
+            display: inline-block;
+            width: calc(33.33% - 7px);
+            margin: 5px 5px 5px 0;
+            padding: 5px 0;
+            &:last-child {
+                margin: 5px 0;
+            }
+        }
+    }
+    
+    .main-content {
+
+    .container{  
+        .article{
+            img{
+                width: 40%;
+                height: auto;
+                float: left;
+                margin-right: 15px;
+            }
+            p{
+                text-align: left;
+                margin: 10px 0;
+            }
+        }
+        .form{
+            h1{
+                text-align: center;
+            }
+            input[type=text] {
+                width: 100%;
+                display: block;
+                margin: 5px 0;
+                
+            }
+            input[type=email] {
+                width: 100%;
+                display: block;
+                margin: 5px 0;
+                
+            }
+            .textforms{
+                width: 30%;
+                float: left;
+                margin-right: 5%;
+            }
+            textarea{
+                margin-top: 5px;
+                width: 65%;
+            }
+            input[type=submit] {
+                margin-bottom: 10px;
+                width: 30%;
+                
+            }
+        }
+    }
+}
+}
+
+@include large {
+    
+    
+    
+    .main-content {
+
+    .container{  
+        .article{
+            img{
+                width: 40%;
+                height: auto;
+                float: left;
+                margin-right: 15px;
+            }
+            p{
+                text-align: left;
+                margin: 10px 0;
+            }
+            
+        }
+        .lg-two-col{
+                width: 45%;
+                float: left;
+                margin-right: 10%;
+            &:last-child{
+                margin-right: 0%;
+            }
+        }
+        .form{
+            h1{
+                text-align: left;
+            }
+        }
+    }
+}
+}
